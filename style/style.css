@@ -3,6 +3,12 @@
 *::after {
   box-sizing: border-box;
 }
+.box1:hover {
+  background-color: crimson;
+}
+.box2:hover {
+  background-color: dimgrey;
+}
 .tb1 > tr > td:hover {
   background-color: aqua;
   color: brown;
@@ -24,6 +30,7 @@ body {
   border-top-left-radius: 10%;
   border-top-right-radius: 20%;
   margin-top: 50px;
+  margin-left: 50px;
 }
 .box2 {
   width: 150px;
@@ -32,4 +39,5 @@ body {
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 20%;
   margin-top: 10px;
+  margin-left: 50px;
 }
