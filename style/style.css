@@ -30,7 +30,7 @@ body {
   text-align: left;
 }
 .box1 {
-  display: flex;
+  display: block;
   color: black;
   border: 5px dashed green;
   width: 150px;
@@ -42,7 +42,7 @@ body {
   margin-left: 50px;
 }
 .box2 {
-  display: flex;
+  display: block;
   color: black;
   border: 5px solid red;
   width: 150px;
