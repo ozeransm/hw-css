@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 .box1:hover {
+  color: aquamarine;
   background-color: crimson;
 }
 .box2:hover {
+  color: antiquewhite;
   background-color: dimgrey;
 }
 .tb1 > tr > td:hover {
@@ -14,6 +16,7 @@
   color: brown;
 }
 .tab1 {
+  margin-left: 30px;
   margin-top: 30px;
   width: 50%;
 }
@@ -21,9 +24,15 @@
   background-color: bisque;
 }
 body {
-  display: block;
+  display: flex;
+}
+.p {
+  text-align: left;
 }
 .box1 {
+  display: flex;
+  color: black;
+  border: 5px dashed green;
   width: 150px;
   height: 200px;
   background-color: blue;
@@ -33,6 +42,9 @@ body {
   margin-left: 50px;
 }
 .box2 {
+  display: flex;
+  color: black;
+  border: 5px solid red;
   width: 150px;
   height: 200px;
   background-color: yellow;
