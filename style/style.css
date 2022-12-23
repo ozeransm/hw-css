@@ -3,7 +3,10 @@
 *::after {
   box-sizing: border-box;
 }
-
+.tb1 > tr > td:hover {
+  background-color: aqua;
+  color: brown;
+}
 body {
   display: block;
 }
