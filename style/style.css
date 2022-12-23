@@ -5,7 +5,7 @@
 }
 
 body {
-  display: inline;
+  display: block;
 }
 .box1 {
   width: 150px;
