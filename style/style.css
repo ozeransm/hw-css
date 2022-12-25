@@ -7,6 +7,7 @@
   color: aquamarine;
   background-color: crimson;
 }
+
 .box2:hover {
   color: antiquewhite;
   background-color: dimgrey;
@@ -14,6 +15,9 @@
 .tb1 > tr > td:hover {
   background-color: aqua;
   color: brown;
+}
+.tb1 {
+  text-align: center;
 }
 .tab1 {
   margin-left: 30px;
@@ -23,14 +27,22 @@
 .tab1:hover {
   background-color: bisque;
 }
-body {
-  display: flex;
-}
-.p {
+
+.p1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-indent: 20px;
+  line-height: 30px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px black, 2px 2px 4px white;
+  font-style: italic;
+
   text-align: left;
 }
+.box0 {
+  display: flex;
+}
 .box1 {
-  display: block;
   color: black;
   border: 5px dashed green;
   width: 150px;
@@ -42,7 +54,6 @@ body {
   margin-left: 50px;
 }
 .box2 {
-  display: block;
   color: black;
   border: 5px solid red;
   width: 150px;
@@ -52,4 +63,21 @@ body {
   border-bottom-right-radius: 20%;
   margin-top: 10px;
   margin-left: 50px;
+}
+
+.dv1 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 300px;
+  height: 50px;
+  background-color: bisque;
+}
+.dv2 {
+  margin: 5px;
+  padding: 10px;
+  border: 10px;
+  width: 290px;
+  height: 50px;
+  background-color: bisque;
 }
