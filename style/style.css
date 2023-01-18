@@ -84,7 +84,7 @@
 .list {
   display: flex;
   list-style: none;
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0;
   padding: 0;
   margin-left: auto;
@@ -97,7 +97,7 @@
   margin-right: 15px;
   margin-left: 0px;
   margin-bottom: 15px;
-  width: calc((100% - 60px) / 5);
+  flex-basis: calc((100% - 60px) / 5);
   background-color: beige;
   border-radius: 4px;
   border-width: 5px;
@@ -117,4 +117,106 @@
 }
 .list .list-item:nth-child(2n + 1) {
   background-color: blueviolet;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1500px;
+  background-color: #ccc;
+}
+.llist {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -10px;
+}
+.llist-item {
+  flex-basis: calc((100% - 100px) / 3);
+  margin: 10px;
+  background-color: aquamarine;
+}
+.bg,
+.bgg {
+  width: 800px;
+  max-height: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px dashed #ccc;
+  background-image: url("https://picsum.photos/seed/picsum/200/300");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* background-image: linear-gradient(30deg, red, yellow); */
+}
+.bg::after {
+  display: block;
+  content: "";
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  background-color: #ccc;
+  background-image: url(../img/boy-svgrepo-com.svg);
+}
+.bg::before {
+  display: block;
+  content: "";
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  background-color: #ccc;
+  background-image: url(../img/girl-svgrepo-com.svg);
+}
+.bgg::before {
+  display: block;
+  content: "";
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  background-color: #ccc;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../img/chat-svgrepo-com.svg);
+}
+.bgg::after {
+  display: block;
+  content: "";
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  background-color: #ccc;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../img/computer-svgrepo-com.svg);
+}
+.bg:hover::before {
+  background-color: transparent;
+}
+.bg:hover::after {
+  background-color: transparent;
+}
+.bgg:hover::before {
+  background-color: transparent;
+}
+.bgg:hover::after {
+  background-color: transparent;
+  background-image: none;
+}
+
+.button {
+  display: block;
+  padding: 0;
+  border: none;
+  width: 100px;
+  height: 100px;
+  color: #000;
+  border-radius: 50%;
+  background-color: teal;
+}
+.icon-button {
+  background-size: contain;
 }
